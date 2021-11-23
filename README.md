@@ -18,6 +18,7 @@ Testing the webserver
 
 
 ## OUTPUT:
+![client side](./screenshot1.png)
 
 
 ## RESULT:
