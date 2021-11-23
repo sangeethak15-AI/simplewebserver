@@ -18,7 +18,7 @@ Testing the webserver
 
 
 ## OUTPUT:
-![client side](./screenshot1.png)
+![client side](./C:\Users\sange\Pictures\Screenshots.png)
 
 
 ## RESULT:
