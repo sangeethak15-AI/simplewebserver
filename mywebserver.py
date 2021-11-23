@@ -3,7 +3,7 @@ content = """
 <!DOCTYPE html>
 <html>
 <head>
-<title>My webserver</title>
+<title> webserver</title>
 </head>
 <body>
 <h1> Top 5 programming language </h1> 
@@ -15,7 +15,7 @@ content = """
 </body>
 </html>
 """
-class myhandler(BaseHTTPRequestHandler):
+class handler(BaseHTTPRequestHandler):
     def do_GET(self):
         print("request received")
         self.send_response(200)
@@ -23,6 +23,6 @@ class myhandler(BaseHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(content.encode())
 server_address = ('',8080)
-httpd = HTTPServer(server_address,myhandler)
-print("my webserver is running...")
+httpd = HTTPServer(server_address,handler)
+print(" webserver is running...")
 httpd.serve_forever()
