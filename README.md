@@ -55,10 +55,12 @@ httpd.serve_forever()
 
 ## OUTPUT:
 ### CLIENT SIDE OUTPUT
-![CLIENTSIDEOUTPUT](./clientside1.png)
+![CLIENTSIDEOUTPUT](./clientside1.png)![clientside1](https://user-images.githubusercontent.com/93992063/143169590-75e2eb99-4aed-48f7-a186-ced5ea2ed016.png)
+
 
 ### SERVER SIDE OUTPUT:
-![SERVERSIDEOUTPUT](./serverside1.png)
+![SERVERSIDEOUTPUT](./serverside1.png)![serverside1](https://user-images.githubusercontent.com/93992063/143169608-d3b027ca-c30d-4431-90cc-d87ac61ceb82.png)
+
 
 
 
